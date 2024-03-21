@@ -42,7 +42,7 @@ $products =[
         <div class="row">
             <div class="col-12 text-center display-3 text-dark mt-5">Prodeucts</div>
             <?php foreach($products as $product) { ?>
-            <div class="col-14">
+            <div class="col-4">
                 <div class="card">
                     <div class="card-body">
                         <img src="<?=$product['image']?>" alt="" class="w-100">
